@@ -1,6 +1,8 @@
 # YouTube Transcript Summarizer
 
-A simple Python tool to summarize YouTube videos using their transcripts and Google's Gemini LLM.
+A simple Python tool to summarize YouTube videos using their transcripts and Google's Gemini LLM. 
+
+If you spending too much time watching YouTube videos, even the useful ones, you might be wasting time before you get the core ideas or having to skip the ads. Here is a solution to get some time back.
 
 ## Setup
 
