@@ -45,7 +45,7 @@ Press **Enter** on an empty line to exit.
 To run this tool from anywhere in your terminal, add the following alias to your `~/.zshrc` (or `~/.bashrc`):
 
 ```bash
-alias summarize-video='uv run --directory "/Users/bin/Code/lab/youtube_transcript" main.py'
+alias summarize-video='uv run --directory "/path/to/youtube_transcript" main.py'
 ```
 
 After adding the alias, reload your shell (`source ~/.zshrc`). Now you can use it like this:
@@ -67,7 +67,7 @@ To use this tool from Claude Desktop as an MCP server, add the following configu
         "run",
         "server.py"
       ],
-      "cwd": "/Users/bin/Code/lab/youtube_transcript"
+      "cwd": "/path/to/youtube_transcript"
     }
   }
 }
